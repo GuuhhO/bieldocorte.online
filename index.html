@@ -1,0 +1,220 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Biel do Corte - Início</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+
+    <style>
+        #banner {
+            color: white;
+            text-shadow: #000 0px 0px 8px;
+            padding-top: 220px;
+            padding-bottom: 220px;
+            background-image: url(images/banner.jfif);
+            background-position: center;
+            background-size: 100%;
+            background-repeat: no-repeat;
+        }
+
+        #conquistas {
+            color: white;
+            background-color: rgb(20, 20, 20);
+            padding-top: 50px;
+            padding-bottom: 50px;
+        }
+
+        footer {
+            background: black;
+            color: white;
+            padding-top: 50px;
+        }
+
+        #title {
+            display: none;
+        }
+
+        @media (orientation: portrait) {
+        #sobre > .container-fluid > .row > .col {
+          flex-basis: 100%;
+          text-align: center;
+        }
+        #sobre > .container-fluid > .row > .col > img {
+          padding-bottom: 20px;
+        }
+        .card {
+          flex-basis: 100%;
+          text-align: center;
+        }
+        body > footer > div > div.row.mb-5 > div:nth-child(1) > center > img {
+            width: 50%;
+        }
+        #banner {
+            background-size: cover;
+        }
+        #conquistas {
+            padding-top: 0px;
+            padding-bottom: 0px;
+        }
+        #conquistas > .container-fluid > .row > .col {
+            flex-basis: 100%;
+            text-align: center;
+            border-bottom: solid 1px #000;
+            padding: 7px;
+        }
+        .navbar-brand > img {
+            width: 20%;
+            flex-basis: 100%;
+            text-align: center;
+        }
+        #imgTitle {
+            display: none;
+        }
+        #title {
+            display: inline;
+        }
+      }
+
+    </style>
+  </head>
+  <body>
+
+<header>
+    <nav class="navbar navbar-expand-lg bg-dark" data-bs-theme="dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#"><img src="images/logo_texto.png" width="5%" alt="" id="imgTitle"><h6 id="title">Biel do Corte</h6></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href=".">Início</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#sobre">Sobre</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#servicos">Serviços</a>
+                </li>
+            </ul>
+            </div>
+        </div>
+        </nav>
+</header>
+
+<section id="banner">
+    <div class="container-fluid">
+        <div class="row ms-5">
+            <h1>Lorem Ipsum</h1>
+            <h3>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</h3>
+            <a href="" class="btn btn-primary col-auto ms-3" type="button" >Lorem</a>
+        </div>
+    </div>
+</section>
+
+<section id="sobre" class="mb-5">
+    <div class="container-fluid">
+        <div class="row text-center col-6 m-auto mt-5 mb-5">
+            <h1>Sobre</h1>
+            <h5>Estamos comprometidos e determinados a deixar todos os nossos clientes satisfeitos, ouvindo e sugerindo o estilo que mais combina com você.</h5>
+        </div>
+        <div class="row">
+            <div class="col">
+                <img src="images/artista-sobre.jpg" width="100%" alt="">
+            </div>
+            <div class="col align-content-center" id="servicos">
+                <div class="row">
+                    <h2><b>Biel do Corte</b></h2>
+                    <br>
+                    <h6>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.</h6>    
+                </div>
+                <div class="row">
+                    <div class="card m-2" style="width: 18rem; border: none;">
+                        <div class="card-body">
+                          <h5 class="card-title">Card title</h5>
+                          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        </div>
+                      </div>
+                      <div class="card m-2" style="width: 18rem; border: none;">
+                        <div class="card-body">
+                          <h5 class="card-title">Card title</h5>
+                          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        </div>
+                      </div>
+                </div>
+                <div class="row">
+                    <div class="card m-2" style="width: 18rem; border: none;">
+                        <div class="card-body">
+                          <h5 class="card-title">Card title</h5>
+                          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        </div>
+                      </div>
+                      <div class="card m-2" style="width: 18rem; border: none;">
+                        <div class="card-body">
+                          <h5 class="card-title">Card title</h5>
+                          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        </div>
+                      </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="conquistas">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col m-auto text-center">
+                <h1>+5000</h1>
+                <h5>Clientes satisfeitos</h5>
+            </div>
+            <div class="col m-auto text-center">
+                <h1>+5000</h1>
+                <h5>Clientes satisfeitos</h5>
+            </div>
+            <div class="col m-auto text-center">
+                <h1>+5000</h1>
+                <h5>Clientes satisfeitos</h5>
+            </div>
+            <div class="col m-auto text-center" style="border: none !important;">
+                <h1>+5000</h1>
+                <h5>Clientes satisfeitos</h5>
+            </div>
+        </div>
+    </div>
+</section>
+
+<footer>
+    <div class="container-fluid pt-5 ps-5 pe-5 pb-2">
+        <div class="row mb-5">
+            <div class="col">
+                <center><img src="images/logo_branca.png" alt="" width="20%"></center>
+            </div>
+            <div class="col align-content-center">
+                <ul class="nav flex-column text-center">
+                    <li class="nav-item">
+                      <a class="nav-link text-white" href=".">Início</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link text-white" href="#sobre">Sobre</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link text-white" href="#servicos">Serviços</a>
+                    </li>
+                  </ul>
+            </div>
+        </div>
+        <hr>
+        <div class="row mt-3 text-center">
+            <p class="opacity-50">2024 © Biel do Corte - Todos os Direitos Reservados.</p>
+        </div>
+    </div>
+</footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js" integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+  </body>
+</html>
